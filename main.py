@@ -115,6 +115,15 @@ def main():
         label = "new" if problem["status"] == "new" else f"review ({problem['confidence']})"
         print(f"\n🧠 Problem: {problem['name']} [{label}]")
 
+        # Show existing notes, if any
+        if problem.get("notes"):
+            print(f"📝 Notes: {problem['notes']}")
+
+        add_notes = input("Add or edit notes? (y/n): ").strip().lower()
+        if add_notes == "y":
+            notes = input("Enter notes (leave blank to clear): ").strip()
+            problem["notes"] = notes
+
         rating = input("Rate your attempt: [r]ed, [y]ellow, [g]reen → ").strip().lower()
 
         if rating in {"r", "y", "g"}:

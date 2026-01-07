@@ -1,0 +1,402 @@
+[
+  {
+    "name": "Contains Duplicate",
+    "status": "reviewable",
+    "confidence": "green",
+    "last_attempted": "2026-01-06",
+    "notes": "",
+    "next_review": "2026-01-13"
+  },
+  {
+    "name": "Valid Anagram",
+    "status": "reviewable",
+    "confidence": "green",
+    "last_attempted": "2026-01-06",
+    "notes": "",
+    "next_review": "2026-01-13"
+  },
+  {
+    "name": "Two Sum",
+    "status": "reviewable",
+    "confidence": "green",
+    "last_attempted": "2026-01-06",
+    "notes": "",
+    "next_review": "2026-01-13"
+  },
+  {
+    "name": "Group Anagrams",
+    "status": "reviewable",
+    "confidence": "yellow",
+    "last_attempted": "2026-01-06",
+    "notes": "Create a dictionary where each index is 26 characters and values are frequencies. Turn into tuple and use as a key for a hashmap where the values are the groupings of anagrams that match that frequency tuple. Return the values of the hashmap.",
+    "next_review": "2026-01-09"
+  },
+  {
+    "name": "Top K Frequent Elements",
+    "status": "reviewable",
+    "confidence": "yellow",
+    "last_attempted": "2026-01-07",
+    "notes": "Either create a min heap of tuples (freq, value) from a hashmap and push onto heap. Whenever heap is > k, pop until equal to k to keep only the most frequent. OR remember that an element's frequency can be at most the length of the arry. Create lenght of array buckets where the index is the frequency and the value is the elements in nums that occur at that frequency. Traverse the list of buckets backwards finding the k most frequent. (Bucket sort)",
+    "next_review": "2026-01-10"
+  },
+  {
+    "name": "Valid Sudoku",
+    "status": "reviewable",
+    "confidence": "yellow",
+    "last_attempted": "2026-01-07",
+    "notes": "dictionary of sets for row, col, and squares. Map square by row index // 3 and col index //3. Then check for duplicates.",
+    "next_review": "2026-01-10"
+  },
+  {
+    "name": "Product of Array Except Self",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Longest Consectuvie Sequence",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Valid Palindrome",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Two Sum II Input Array Is Sorted",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "3Sum",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Container With Most Water",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Best Time to Buy And Sell Stock",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Longest Substring Without Repeating Characters",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Longest Repeating Character Replacement",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Valid Parentheses",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Min Stack",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Daily Temperatures",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Binary Search",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Find Minimum In Rotated Sorted Array",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Search In Rotated Sorted Array",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Reverse Linked List",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Merge Two Sorted Lists",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Reorder List",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Remove Nth Node From End of List",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Linked List Cycle",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "LRU Cache",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Invert Binary Tree",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Maximum Depth of Binary Tree",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Diameter of Binary Tree",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Balanced Binary Tree",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Same Tree",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Subtree of Another Tree",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Lowest Common Ancestor of a Binary Search Tree",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Binary Tree Level Order Traversal",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Binary Tree Right Side View",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Count Good Nodes in Binary Tree",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Validate Binary Search Tree",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Kth Smallest Element in a Bst",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Kth Largest Element in a Stream",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Last Stone Weight",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Kth Largest Element in An Array",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Number of Islands",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Max Area of Islands",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Clone Graph",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Pacific Atlantic Water Flow",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Surrounded Regions",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Course Schedule",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Course Schedule II",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  },
+  {
+    "name": "Longest Increasing Subsequence",
+    "status": "new",
+    "confidence": null,
+    "last_attempted": null,
+    "notes": "",
+    "next_review": null
+  }
+]

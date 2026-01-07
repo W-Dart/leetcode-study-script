@@ -13,6 +13,7 @@ with open("Top50Problems.txt", "r") as f:
             "status": "new",
             "confidence": None,
             "last_attempted": None,
+            "notes": "",
             "next_review": None
         })
 
