@@ -2,7 +2,6 @@ import json
 from datetime import date, timedelta
 
 BASE_DAILY_LIMIT = 2
-MAX_DAILY_LIMIT = 5
 DATA_FILE = "Top50Problems.json"
 
 # ---------- Helper functions for date serialization ----------
@@ -101,12 +100,12 @@ def main():
     today = date.today()
 
     print(f"\n📅 Today: {today}")
-    print("Starting session (2 problems minimum)")
+    print(f"Starting session (minimum {BASE_DAILY_LIMIT} problems)")
 
     used_problem_names = set()
     problems_done = 0
 
-    while problems_done < MAX_DAILY_LIMIT:
+    while True:
         problem = get_next_problem(problems, today, used_problem_names)
 
         if problem is None:
@@ -131,11 +130,6 @@ def main():
         # Mandatory minimum
         if problems_done < BASE_DAILY_LIMIT:
             continue
-
-        # Optional continuation
-        if problems_done >= MAX_DAILY_LIMIT:
-            print("\n⚠️ Daily max reached. Great work.")
-            break
 
         more = input("Do you want another problem? (y/n): ").strip().lower()
         if more != "y":
