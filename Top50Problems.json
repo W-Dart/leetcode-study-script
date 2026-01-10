@@ -25,51 +25,51 @@
   },
   {
     "name": "Group Anagrams",
-    "status": "reviewable",
-    "confidence": "yellow",
-    "last_attempted": "2026-01-06",
+    "status": "completed",
+    "confidence": "green",
+    "last_attempted": "2026-01-10",
     "notes": "Create a dictionary where each index is 26 characters and values are frequencies. Turn into tuple and use as a key for a hashmap where the values are the groupings of anagrams that match that frequency tuple. Return the values of the hashmap.",
-    "next_review": "2026-01-09"
+    "next_review": null
   },
   {
     "name": "Top K Frequent Elements",
-    "status": "reviewable",
-    "confidence": "yellow",
-    "last_attempted": "2026-01-07",
+    "status": "completed",
+    "confidence": "green",
+    "last_attempted": "2026-01-10",
     "notes": "Either create a min heap of tuples (freq, value) from a hashmap and push onto heap. Whenever heap is > k, pop until equal to k to keep only the most frequent. OR remember that an element's frequency can be at most the length of the arry. Create lenght of array buckets where the index is the frequency and the value is the elements in nums that occur at that frequency. Traverse the list of buckets backwards finding the k most frequent. (Bucket sort)",
-    "next_review": "2026-01-10"
+    "next_review": null
   },
   {
     "name": "Valid Sudoku",
-    "status": "reviewable",
-    "confidence": "yellow",
-    "last_attempted": "2026-01-07",
+    "status": "completed",
+    "confidence": "green",
+    "last_attempted": "2026-01-10",
     "notes": "dictionary of sets for row, col, and squares. Map square by row index // 3 and col index //3. Then check for duplicates.",
-    "next_review": "2026-01-10"
+    "next_review": null
   },
   {
     "name": "Product of Array Except Self",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
+    "status": "reviewable",
+    "confidence": "green",
+    "last_attempted": "2026-01-08",
     "notes": "",
-    "next_review": null
+    "next_review": "2026-01-15"
   },
   {
     "name": "Longest Consectuvie Sequence",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
-    "notes": "",
-    "next_review": null
+    "status": "reviewable",
+    "confidence": "yellow",
+    "last_attempted": "2026-01-08",
+    "notes": "create a set and check if consecutive value exists as you loop through values. Remember to only check for values at the start of a sequence so check first if num - 1 does not exist in the set.",
+    "next_review": "2026-01-11"
   },
   {
     "name": "Valid Palindrome",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
-    "notes": "",
-    "next_review": null
+    "status": "reviewable",
+    "confidence": "green",
+    "last_attempted": "2026-01-08",
+    "notes": "use isalnum() to check if char is alpha numerical. Do in place with two pointers",
+    "next_review": "2026-01-15"
   },
   {
     "name": "Two Sum II Input Array Is Sorted",
