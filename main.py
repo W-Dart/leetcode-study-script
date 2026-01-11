@@ -41,8 +41,14 @@ def save_problems(problems, file_path):
 
 # ---------- Selection Logic ----------
 
-def get_next_problem(problems, today, used_names):
-    # 1. Overdue reviews first
+def get_next_problem(problems, today, used_names, reviews_given=0):
+    """
+    Select the next problem.
+    - Allow at most one review problem per session/day (controlled by reviews_given).
+    - If a review has already been given and there are new problems available, prefer a new one.
+    - If no new problems exist, allow additional overdue review problems.
+    """
+    # Overdue reviews (due today or earlier) not yet used
     reviewable = [
         p for p in problems
         if p["status"] == "reviewable"
@@ -52,18 +58,24 @@ def get_next_problem(problems, today, used_names):
     ]
     reviewable.sort(key=lambda p: p["next_review"])
 
-    if reviewable:
-        return reviewable[0]
-
-    # 2. New problems
+    # New problems not yet used
     new_problems = [
         p for p in problems
         if p["status"] == "new"
         and p["name"] not in used_names
     ]
 
+    # If we haven't had a review yet, prefer a reviewable problem first
+    if reviews_given < 1 and reviewable:
+        return reviewable[0]
+
+    # Prefer new problems when possible
     if new_problems:
         return new_problems[0]
+
+    # If no new problems exist, fall back to reviewable problems
+    if reviewable:
+        return reviewable[0]
 
     return None
 
@@ -104,9 +116,10 @@ def main():
 
     used_problem_names = set()
     problems_done = 0
+    reviews_given = 0
 
     while True:
-        problem = get_next_problem(problems, today, used_problem_names)
+        problem = get_next_problem(problems, today, used_problem_names, reviews_given)
 
         if problem is None:
             print("\n🎉 No more problems available today.")
@@ -114,6 +127,10 @@ def main():
 
         label = "new" if problem["status"] == "new" else f"review ({problem['confidence']})"
         print(f"\n🧠 Problem: {problem['name']} [{label}]")
+
+        # If this is an overdue review problem, count it toward the daily review limit
+        if problem["status"] == "reviewable" and problem.get("next_review") and problem["next_review"] <= today:
+            reviews_given += 1
 
         # Show existing notes, if any
         if problem.get("notes"):

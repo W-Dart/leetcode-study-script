@@ -57,11 +57,11 @@
   },
   {
     "name": "Longest Consectuvie Sequence",
-    "status": "reviewable",
-    "confidence": "yellow",
-    "last_attempted": "2026-01-08",
+    "status": "completed",
+    "confidence": "green",
+    "last_attempted": "2026-01-11",
     "notes": "create a set and check if consecutive value exists as you loop through values. Remember to only check for values at the start of a sequence so check first if num - 1 does not exist in the set.",
-    "next_review": "2026-01-11"
+    "next_review": null
   },
   {
     "name": "Valid Palindrome",
@@ -73,11 +73,11 @@
   },
   {
     "name": "Two Sum II Input Array Is Sorted",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
+    "status": "reviewable",
+    "confidence": "green",
+    "last_attempted": "2026-01-11",
     "notes": "",
-    "next_review": null
+    "next_review": "2026-01-18"
   },
   {
     "name": "3Sum",
