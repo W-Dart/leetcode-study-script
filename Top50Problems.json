@@ -17,11 +17,11 @@
   },
   {
     "name": "Two Sum",
-    "status": "reviewable",
+    "status": "completed",
     "confidence": "green",
-    "last_attempted": "2026-01-06",
+    "last_attempted": "2026-01-17",
     "notes": "",
-    "next_review": "2026-01-13"
+    "next_review": null
   },
   {
     "name": "Group Anagrams",
@@ -113,27 +113,27 @@
   },
   {
     "name": "Longest Repeating Character Replacement",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
-    "notes": "",
-    "next_review": null
+    "status": "reviewable",
+    "confidence": "green",
+    "last_attempted": "2026-01-17",
+    "notes": "sliding window with hashmap track most freq value which is needed for a the valid window constraint",
+    "next_review": "2026-01-24"
   },
   {
     "name": "Valid Parentheses",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
+    "status": "reviewable",
+    "confidence": "green",
+    "last_attempted": "2026-01-17",
     "notes": "",
-    "next_review": null
+    "next_review": "2026-01-24"
   },
   {
     "name": "Min Stack",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
+    "status": "reviewable",
+    "confidence": "green",
+    "last_attempted": "2026-01-17",
     "notes": "",
-    "next_review": null
+    "next_review": "2026-01-24"
   },
   {
     "name": "Daily Temperatures",
