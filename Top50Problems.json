@@ -65,11 +65,11 @@
   },
   {
     "name": "Valid Palindrome",
-    "status": "reviewable",
+    "status": "completed",
     "confidence": "green",
-    "last_attempted": "2026-01-08",
+    "last_attempted": "2026-01-29",
     "notes": "use isalnum() to check if char is alpha numerical. Do in place with two pointers",
-    "next_review": "2026-01-15"
+    "next_review": null
   },
   {
     "name": "Two Sum II Input Array Is Sorted",
@@ -153,11 +153,11 @@
   },
   {
     "name": "Find Minimum In Rotated Sorted Array",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
+    "status": "reviewable",
+    "confidence": "green",
+    "last_attempted": "2026-01-29",
     "notes": "",
-    "next_review": null
+    "next_review": "2026-02-05"
   },
   {
     "name": "Search In Rotated Sorted Array",
