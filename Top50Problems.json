@@ -81,11 +81,11 @@
   },
   {
     "name": "3Sum",
-    "status": "reviewable",
-    "confidence": "yellow",
-    "last_attempted": "2026-01-15",
+    "status": "completed",
+    "confidence": "green",
+    "last_attempted": "2026-01-31",
     "notes": "",
-    "next_review": "2026-01-18"
+    "next_review": null
   },
   {
     "name": "Container With Most Water",
@@ -195,25 +195,25 @@
     "name": "Remove Nth Node From End of List",
     "status": "reviewable",
     "confidence": "red",
-    "last_attempted": "2026-01-30",
-    "notes": "",
-    "next_review": "2026-01-31"
+    "last_attempted": "2026-01-31",
+    "notes": "instead of counting and finding index - how can you use two pointers to find it down stream?",
+    "next_review": "2026-02-03"
   },
   {
     "name": "Linked List Cycle",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
-    "notes": "",
-    "next_review": null
+    "status": "reviewable",
+    "confidence": "yellow",
+    "last_attempted": "2026-01-31",
+    "notes": "instead of counting and doing two passes, how can you do in one pass with two pointers?",
+    "next_review": "2026-02-03"
   },
   {
     "name": "LRU Cache",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
-    "notes": "",
-    "next_review": null
+    "status": "reviewable",
+    "confidence": "red",
+    "last_attempted": "2026-01-31",
+    "notes": "use a doubly linked list where head is least used. (but use dummy head and tial nodes for easy code). use a hashmap where a keys value is pointer to that node in the doubly linked list where each node has the key and val",
+    "next_review": "2026-02-01"
   },
   {
     "name": "Invert Binary Tree",
