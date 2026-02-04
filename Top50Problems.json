@@ -337,11 +337,11 @@
   },
   {
     "name": "Number of Islands",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
+    "status": "reviewable",
+    "confidence": "yellow",
+    "last_attempted": "2026-02-04",
     "notes": "",
-    "next_review": null
+    "next_review": "2026-02-07"
   },
   {
     "name": "Max Area of Islands",
@@ -393,10 +393,10 @@
   },
   {
     "name": "Longest Increasing Subsequence",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
+    "status": "reviewable",
+    "confidence": "yellow",
+    "last_attempted": "2026-02-04",
     "notes": "",
-    "next_review": null
+    "next_review": "2026-02-07"
   }
 ]
