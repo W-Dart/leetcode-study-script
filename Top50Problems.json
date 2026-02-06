@@ -113,11 +113,11 @@
   },
   {
     "name": "Longest Repeating Character Replacement",
-    "status": "reviewable",
+    "status": "completed",
     "confidence": "green",
-    "last_attempted": "2026-01-17",
+    "last_attempted": "2026-02-06",
     "notes": "sliding window with hashmap track most freq value which is needed for a the valid window constraint",
-    "next_review": "2026-01-24"
+    "next_review": null
   },
   {
     "name": "Valid Parentheses",
@@ -313,11 +313,11 @@
   },
   {
     "name": "Kth Largest Element in a Stream",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
+    "status": "reviewable",
+    "confidence": "yellow",
+    "last_attempted": "2026-02-06",
     "notes": "",
-    "next_review": null
+    "next_review": "2026-02-09"
   },
   {
     "name": "Last Stone Weight",
