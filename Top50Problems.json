@@ -121,11 +121,11 @@
   },
   {
     "name": "Valid Parentheses",
-    "status": "reviewable",
+    "status": "completed",
     "confidence": "green",
-    "last_attempted": "2026-01-17",
+    "last_attempted": "2026-02-08",
     "notes": "",
-    "next_review": "2026-01-24"
+    "next_review": null
   },
   {
     "name": "Min Stack",
@@ -321,19 +321,19 @@
   },
   {
     "name": "Last Stone Weight",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
+    "status": "reviewable",
+    "confidence": "green",
+    "last_attempted": "2026-02-08",
     "notes": "",
-    "next_review": null
+    "next_review": "2026-02-15"
   },
   {
     "name": "Kth Largest Element in An Array",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
+    "status": "reviewable",
+    "confidence": "yellow",
+    "last_attempted": "2026-02-08",
     "notes": "",
-    "next_review": null
+    "next_review": "2026-02-11"
   },
   {
     "name": "Number of Islands",
