@@ -137,11 +137,11 @@
   },
   {
     "name": "Daily Temperatures",
-    "status": "reviewable",
-    "confidence": "yellow",
-    "last_attempted": "2026-01-24",
+    "status": "completed",
+    "confidence": "green",
+    "last_attempted": "2026-02-11",
     "notes": "",
-    "next_review": "2026-01-27"
+    "next_review": null
   },
   {
     "name": "Binary Search",
@@ -353,11 +353,11 @@
   },
   {
     "name": "Clone Graph",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
-    "notes": "",
-    "next_review": null
+    "status": "reviewable",
+    "confidence": "yellow",
+    "last_attempted": "2026-02-11",
+    "notes": "need to create deep copies so use a hashmap to track which nodes been copied where the key is the given node and value is the copied. Use BFS to traverse the given nodes and make copies for ones you havent seen yet. Hook up neighbor copys.",
+    "next_review": "2026-02-14"
   },
   {
     "name": "Pacific Atlantic Water Flow",
