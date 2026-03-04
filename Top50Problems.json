@@ -145,11 +145,11 @@
   },
   {
     "name": "Binary Search",
-    "status": "reviewable",
+    "status": "completed",
     "confidence": "green",
-    "last_attempted": "2026-01-24",
+    "last_attempted": "2026-03-04",
     "notes": "",
-    "next_review": "2026-01-31"
+    "next_review": null
   },
   {
     "name": "Find Minimum In Rotated Sorted Array",
@@ -361,11 +361,11 @@
   },
   {
     "name": "Pacific Atlantic Water Flow",
-    "status": "new",
-    "confidence": null,
-    "last_attempted": null,
-    "notes": "",
-    "next_review": null
+    "status": "reviewable",
+    "confidence": "red",
+    "last_attempted": "2026-03-04",
+    "notes": "I tried to do dp on a graph. But that only works for a DAG, not a graph with cycles. Due to water being able to flow between nodes of equal height, there can be cycles. So in that approach you would need to mark cells as visiting and repair during dfs to avoid infinite loops. This approach is super slow. So instead, we must go from reverse. Look at video",
+    "next_review": "2026-03-05"
   },
   {
     "name": "Surrounded Regions",
